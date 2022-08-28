@@ -962,7 +962,7 @@ img {
   content: "";
   width: 16px;
   height: 14px;
-  background-image: url(img/footer_button.svg);
+  background-image: url(/img/footer_button.svg);
   color: #ffffff;
   position: absolute;
   right: 12px;
