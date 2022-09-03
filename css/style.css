@@ -780,7 +780,7 @@ img {
 .backed_item-title {
   margin-top: 15px;
   padding-left: 20px;
-  padding-bottom: 44px;
+  padding-bottom: 14px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -789,13 +789,12 @@ img {
   position: relative;
 }
 
-.backed_item-title::before {
-  content: "";
-  position: absolute;
+.image-in {
   width: 40px;
   height: 20px;
-  background-image: url(/img/icontw.svg);
-  top: 20px;
+  display: block;
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
 
 .backed_item-white {
@@ -962,7 +961,6 @@ img {
   content: "";
   width: 16px;
   height: 14px;
-  background-image: url(/img/footer_button.svg);
   color: #ffffff;
   position: absolute;
   right: 12px;
